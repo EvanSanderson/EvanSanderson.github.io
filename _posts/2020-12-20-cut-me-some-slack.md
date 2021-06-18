@@ -1,11 +1,13 @@
+---
 layout: post
 title: "Creating A Slack-Bot To Help Manage A Shared Component Library"
-date: 2020-12-20 10:00:00 -0000
+date: 2020-12-20 10:15:00 -0400
 categories: Node Slack-bots Javascript
+---
 
-# Creating A Slack-Bot To Help Manage A Shared Component Library
+## Creating A Slack-Bot To Help Manage A Shared Component Library
 
-At work, we have a shared component library that lives in a private registry filled with Vue components for a variety of different UI elements. This component library, which we call “Legos”, includes things as simple as buttons to more complicated items like API-aware lists of news cards. 
+At work, we have a shared component library that lives in a private registry filled with Vue components for a variety of different UI elements. This component library, which we call “Legos”, includes things as simple as buttons to more complicated items like API-aware lists of news cards.
 We’ve worked very hard to make these components reusable, well-tested, and accessible, and we’ve tried to make the development and implementation of these components as easy as possible.
 
 One final workflow hurdle is that, because the component library is imported as an NPM package, in order to see the changes from recent work done on a shared component, our developers need to make a pull request that “bumps” the version of the library to the latest version. Is this a huge impediment? No, but it is something that can cause a little bit of cognitive dissonance when trying to communicate with QA or project management. Take this example:
