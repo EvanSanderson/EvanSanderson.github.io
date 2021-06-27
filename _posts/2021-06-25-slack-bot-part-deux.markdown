@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Slack Bot - Part Deux"
+date: 2020-06-25
+categories: Node Slack-bots Javascript
+---
+
 ## A Wee Follow Up To Slack Bots
 
 Ahoy there - I made a post a few months ago about creating a Slack bot to help with dependency management for a shared component library we use at work. Here's a little tldr from that post: we were running into the issue where changes in our component library weren't reflected in consuming applications because developers forgot to bump the version of the library. So I decided to create a Slack bot to help manage this developer workflow/chore. The first reason was to make this less of a chore and the second reason is because its fun to create bots!
@@ -5,6 +12,8 @@ Ahoy there - I made a post a few months ago about creating a Slack bot to help w
 After a few months of tinkering on this Slack tool (which we call Legos Manager), I'm pretty happy with where we've gotten it. It was originally intended as a very simple "command line tool", wherein you could invoke a slash command (`/legos {APP_NAME}`) inside of a Slack channel, and it would do all the dirty work of pulling the right repo, updating package.json and package lock files (or yarn.lock, depending), and making a pull request. And that worked! And we were happy. But we wanted more...
 
 So this is where we are at now:
+
+![oooh fancy modal oooohh](/assets/img/update_to_slack_bot.png)
 
 Here's what Legos Manager 2.0 is capable of:
 
