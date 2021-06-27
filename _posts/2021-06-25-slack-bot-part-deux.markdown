@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Slack Bot - Part Deux"
-date: 2020-06-25 13:48:30 -0400
+date: 2021-06-25 13:48:30 -0400
 categories: Node Slack-bots Javascript
 ---
 
