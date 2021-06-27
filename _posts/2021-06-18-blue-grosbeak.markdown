@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seeing a blue grosbeak"
-date: 2020-06-18
+date: 2020-06-18 13:48:30 -0400
 categories: birds
 ---
 
