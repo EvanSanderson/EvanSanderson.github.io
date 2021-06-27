@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Evan Sanderson-Movius's Blog
+title: Code stuff, birds, and other miscellania
 email: evan.j.sanderson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   It's me, your friend, Evan.
@@ -31,6 +31,11 @@ github_username:  EvanSanderson
 theme: minima
 plugins:
   - jekyll-feed
+defaults:
+- scope:
+    path: "assets/img"
+  values:
+    image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

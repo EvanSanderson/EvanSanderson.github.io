@@ -23,6 +23,9 @@ With that in mind, I decided to build a Slack app that would help us manage this
 
 What I wanted from the app was simple: a user could issue a slash command (/legos) followed by the name of an app. Then the Slack app would take care of the rest, alerting the user if the app was up to date with its version of our component library, and if not doing the updating itself and then pushing that update to a remote working branch.
 
+![Initializing your Slack app](/assets/img/initializing_slack_app.png)
+
+
 I went about building the app in Node, and used Slacks voluminous documentation as a starting point. The major challenges were:
 
 1. Determining if the current version of our component library was the latest available - not as easy as it seems! One could get the latest version of a package, but comparing that effectively to the current used version took a little bit of problem solving.
@@ -31,6 +34,8 @@ I went about building the app in Node, and used Slacks voluminous documentation 
 4. A final major challenge was getting the workflow established for how to properly test a Slack app during local development! I created a test workspace, registered my app at api.slack.com, and then initialized a slash command. But the command itself needs a publicly accessible web address to proxy calls to, meaning I couldn’t just pass in localhost:3000 and start testing away.
 
 A tool called ngrok came to the rescue in this case. Their tag line, I think, says all you need to know: “secure introspectable tunnels to localhost”. Essentially, I run ngrok from the command line with a flag for the local port I want bound to, it provides a tunnel to a web address, and that web address is provided to my slack command. It literally works like magic.
+
+![Ngrok to the rescue!](/assets/img/slack_api_screenshot.png)
 
 Currently, my Slack application works as intended locally. I can pass in the name of one of our consuming applications, have it feedback whether the shared library is up to date, and have it successfully “bump” to the latest version if not. While all is well working within a Docker container running on my local machine, the next step is to move the application into Kubernetes running in AWS. I’m sure that will have its own challenges and learning opportunities -- and perhaps a blog post of its own.
 
