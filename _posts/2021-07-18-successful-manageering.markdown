@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Do I Know I'm Doing An Okay Job?"
-date: 2020-07-18 12:09:00 -0400
+date: 2021-07-18 12:09:00 -0400
 categories: Engineering management
 ---
 
