@@ -2,7 +2,7 @@
 layout: post
 title: "Onboarding, the good and the not as good"
 date: 2021-08-09 03:09:00 -0400
-categories: Engineering management onboaridng
+categories: Engineering management
 ---
 
 My worst onboarding experience was my first day at an upscale dog walking service in Boston. And yes, there is such a thing as an upscale dog walking service - imagine normal dog walkers but we had fancy shirts. I got to the boutique where the business was based, someone handed me a list of clients, and I was told to “get to it”. No instructions on which dogs required special handling, no introduction to other team members, not even a map or directions to the locations of the pooches. Needless to say, I didn’t last very long at that job and the business itself is no longer around.
