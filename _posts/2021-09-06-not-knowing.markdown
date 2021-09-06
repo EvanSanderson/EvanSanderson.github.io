@@ -7,8 +7,6 @@ categories: Engineering management
 
 I have a sticky note that I keep on my computer. It looks like this:
 
-![It's really not even that sticky anymore](/assets/img/sticky.jpeg)
-
 I put it on the top of my computer and every time I see it before starting work, it reminds me to take a deep breath. Leading a team of developers, especially as a new manager, can be incredibly fulfilling and immensely stress inducing. It can feel like there are a million questions to answer in the span of a single morning, ranging the gamut from technical problems to personnel issues. And it doesn’t help that alongside the responsibilities, there’s a strong dollop of impostor syndrome to top off  my anxiety sundae.
 
 So while it might seem silly, having this raggedy post-it note is a gift to myself. I feel an immense pressure to have the answers. Whether in response to a particularly thorny code-related issue on a pull request, guidance on a refactoring process in an old base, or just answers about what priorities the team should have in the coming year. For me, the pressure can often feel insurmountable, and it stems from a desire to demonstrate my competence and to prove that I am, indeed, capable of being a Technical Leader (capital T capital L).
