@@ -7,7 +7,7 @@ categories: Engineering management
 
 I have a sticky note that I keep on my computer. It looks like this:
 
-![It's really not even that sticky anymore](/assets/img/sticky.JPG)
+![It's really not even that sticky anymore](/assets/img/sticky.jpeg)
 
 I put it on the top of my computer and every time I see it before starting work, it reminds me to take a deep breath. Leading a team of developers, especially as a new manager, can be incredibly fulfilling and immensely stress inducing. It can feel like there are a million questions to answer in the span of a single morning, ranging the gamut from technical problems to personnel issues. And it doesn’t help that alongside the responsibilities, there’s a strong dollop of impostor syndrome to top off  my anxiety sundae.
 
