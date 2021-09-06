@@ -28,7 +28,7 @@ url: https://EvanSanderson.github.io # the base hostname & protocol for your sit
 github_username:  EvanSanderson
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 defaults:
