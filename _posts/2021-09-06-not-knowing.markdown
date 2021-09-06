@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Not Knowing"
-date: 2021-09-06 02:15:00 -0300
+date: 2021-09-05 02:15:00 -0300
 categories: Engineering management
 ---
 
